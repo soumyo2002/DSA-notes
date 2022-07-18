@@ -1,1 +1,38 @@
 1)What is a program and Programing?What is coding?
+
+A computer program is a sequence or set of instructions in a programming language for a computer to execute.
+the process or activity of writing computer programs.
+
+Coding is the process of transforming ideas, solutions, and instructions into the language that the computer can understand.
+
+2)What is scripting language?
+All scripting languages are programming languages. The scripting language is basically a language where instructions are written for a run time environment.
+They do not require the compilation step and are rather interpreted. Example Bash,Node.js,Python
+
+3)Why do we need programming languages?
+It's easy. We need programming langauges to communicate with machine. Machine understands instructions in Binary 0's and 1's and it's extremely difficult to write
+instructions in 0's and 1's so we need program languages so that we can write instructions in human readable format.
+
+4)What are the types of lamguages and what are their advantages?
+
+Types of languages are 1)Procedural language 2)Functional language 3)Object oriented language
+
+Procedural:This type of language has series of steps and procedures to compose a program
+Advantage:Program flows in a linear direction, which makes the same easy to track.
+
+Functional:This type of language uses PURE FUNCTIONS i.e never modify variables but create new ones as output.
+Advantages:Helps in projects like ML where we do different stuff with the same set of data,so data cant change.Python is an example of Functional
+
+Object Oriented:Revolves around objects
+Advantage:Developed to reuse software...so if we want to make any changes we can make changes to few objects instead of changing the entire code base
+Like if I want to same some parts of teh car,the mechanic won't change the entire car.
+
+5)Static vs dynamic languages?
+
+Java is static language and Python is dynamic language
+Static language do TYPE CHECKING at compile time while dynamic do checking at runtime
+That means in static I have to tell compiler what is the DATATYPE whereas in dynamic I dont need,which is why
+
+a=10;//Error in Java but not in Python because in Python no need to specify the datatype
+correct version for java:
+int a=10;
